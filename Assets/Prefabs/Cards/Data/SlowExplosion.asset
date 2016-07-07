@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa29187926a15740a6d4dbd560c8065, type: 3}
+  m_Name: SlowExplosion
+  m_EditorClassIdentifier: 
+  cardName: DemoCard2
+  cardSprite: {fileID: 21300000, guid: be508e05de1ae9c4db71dbe270f95b3c, type: 3}
+  maxCharge: 1
+  chargeForce:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .507821202
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .996380746
+      value: 2.52827764
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  manaCost: 1
+  explosionRadius: 3
+  useExplosion: 1
+  affectsFriendlies: 0
+  affectsEnemies: 1
+  effectPrefab: {fileID: 143470, guid: 7de0efda08ed9a544acd5e574cca3419, type: 2}
+  impactSound: {fileID: 8300000, guid: 8679f60ca97b8624f8e60e2210fbe9a1, type: 3}
+  applyToSelf: 0
+  status: 0
+  value: 4

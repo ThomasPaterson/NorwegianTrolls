@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c34112fa53da3142b76a78d826fca86, type: 3}
+  m_Name: SummonTankTroll
+  m_EditorClassIdentifier: 
+  cardName: DemoCard
+  cardSprite: {fileID: 21300000, guid: 1f3875578705b8744bbcd52974dae571, type: 3}
+  maxCharge: 1
+  chargeForce:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .507821202
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .999145925
+      value: 1.90951252
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  manaCost: 7
+  explosionRadius: 0
+  useExplosion: 0
+  affectsFriendlies: 0
+  affectsEnemies: 1
+  effectPrefab: {fileID: 191452, guid: 2aa5be36783971747a60a9e464c63d80, type: 2}
+  impactSound: {fileID: 8300000, guid: fe1efc763ad940842b4aef711901282c, type: 3}
+  numToSummon: 1
+  summon: {fileID: 128792, guid: ac306dbe3ab1752448be01a41379dc4b, type: 2}

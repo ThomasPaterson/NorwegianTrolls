@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &117510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 423482}
+  - 114: {fileID: 11492832}
+  m_Layer: 0
+  m_Name: LevelConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &122616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 465924}
+  - 114: {fileID: 11477578}
+  m_Layer: 0
+  m_Name: PlayerConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 415982}
+  - 114: {fileID: 11481492}
+  m_Layer: 0
+  m_Name: AudioConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &144222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442604}
+  m_Layer: 0
+  m_Name: Config
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &146416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 420880}
+  - 114: {fileID: 11409136}
+  m_Layer: 0
+  m_Name: ObstacleConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &168966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 461152}
+  - 114: {fileID: 11441006}
+  m_Layer: 0
+  m_Name: CardConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457856}
+  - 114: {fileID: 11452738}
+  m_Layer: 0
+  m_Name: GridLocationConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415982
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 4
+--- !u!4 &420880
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 5
+--- !u!4 &423482
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 2
+--- !u!4 &442604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .398266196, y: .335537672, z: -2.1498785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 457856}
+  - {fileID: 465924}
+  - {fileID: 423482}
+  - {fileID: 461152}
+  - {fileID: 415982}
+  - {fileID: 420880}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &457856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.1889515, y: 6.46235466, z: -2.16739893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 0
+--- !u!4 &461152
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 3
+--- !u!4 &465924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 442604}
+  m_RootOrder: 1
+--- !u!114 &11409136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a8c2f8eb2f0374f878b0ee9b62bc51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleTypes:
+  - {fileID: 159472, guid: 324ac0a298b7a6946a56b40506d33a09, type: 2}
+  - {fileID: 159472, guid: e3533b3aa2c34e147b4bfb9f59d5ec77, type: 2}
+  - {fileID: 159472, guid: dd12df5779f8d114d9f0bc2427a5a170, type: 2}
+--- !u!114 &11441006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9339a81d6ab4aa34c8e511a0cadbc0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decks:
+  - deckName: BalancedDeck
+    cards:
+    - {fileID: 11400000, guid: 3e7ba5efc4cb961418220b95e4089bbc, type: 2}
+    - {fileID: 11400000, guid: 5e4366839c33b7f45845e37284f33deb, type: 2}
+    - {fileID: 11400000, guid: d3feaf41a7cef4240a3bbe042e980f05, type: 2}
+    - {fileID: 11400000, guid: 3730b441660f5f8429f7732c4dc1e705, type: 2}
+    - {fileID: 11400000, guid: 445b06a54d88a994884b2f07ad37069e, type: 2}
+    - {fileID: 11400000, guid: c5cdb04f8e414544a8780d379bbb4004, type: 2}
+    - {fileID: 11400000, guid: 7b2099feb8cc5c448a59619417d888e2, type: 2}
+    - {fileID: 11400000, guid: c08aefd057f9dda4a9e9d67a1fbe7517, type: 2}
+    - {fileID: 11400000, guid: a1dec76e32808984bb8ff7a553104893, type: 2}
+    - {fileID: 11400000, guid: 6aa9c24e2266b324398327873cc6d4ac, type: 2}
+  - deckName: Rush Deck
+    cards:
+    - {fileID: 11400000, guid: 3e7ba5efc4cb961418220b95e4089bbc, type: 2}
+    - {fileID: 11400000, guid: a1dec76e32808984bb8ff7a553104893, type: 2}
+    - {fileID: 11400000, guid: c08aefd057f9dda4a9e9d67a1fbe7517, type: 2}
+    - {fileID: 11400000, guid: 0e408ad38dd1d984eb2f2617b0f48733, type: 2}
+    - {fileID: 11400000, guid: 6aa9c24e2266b324398327873cc6d4ac, type: 2}
+    - {fileID: 11400000, guid: 7b2099feb8cc5c448a59619417d888e2, type: 2}
+    - {fileID: 11400000, guid: 3730b441660f5f8429f7732c4dc1e705, type: 2}
+    - {fileID: 11400000, guid: 5e4366839c33b7f45845e37284f33deb, type: 2}
+  - deckName: Octo Deck
+    cards:
+    - {fileID: 11400000, guid: 3e7ba5efc4cb961418220b95e4089bbc, type: 2}
+    - {fileID: 11400000, guid: a1dec76e32808984bb8ff7a553104893, type: 2}
+    - {fileID: 11400000, guid: 6aa9c24e2266b324398327873cc6d4ac, type: 2}
+    - {fileID: 11400000, guid: c08aefd057f9dda4a9e9d67a1fbe7517, type: 2}
+    - {fileID: 11400000, guid: 0e408ad38dd1d984eb2f2617b0f48733, type: 2}
+    - {fileID: 11400000, guid: 5e4366839c33b7f45845e37284f33deb, type: 2}
+  - deckName: Troll Deck
+    cards:
+    - {fileID: 11400000, guid: d3feaf41a7cef4240a3bbe042e980f05, type: 2}
+    - {fileID: 11400000, guid: 3730b441660f5f8429f7732c4dc1e705, type: 2}
+    - {fileID: 11400000, guid: 445b06a54d88a994884b2f07ad37069e, type: 2}
+    - {fileID: 11400000, guid: c5cdb04f8e414544a8780d379bbb4004, type: 2}
+    - {fileID: 11400000, guid: 3e7ba5efc4cb961418220b95e4089bbc, type: 2}
+    - {fileID: 11400000, guid: 6aa9c24e2266b324398327873cc6d4ac, type: 2}
+  - deckName: Sniper Deck
+    cards:
+    - {fileID: 11400000, guid: d3feaf41a7cef4240a3bbe042e980f05, type: 2}
+    - {fileID: 11400000, guid: c08aefd057f9dda4a9e9d67a1fbe7517, type: 2}
+    - {fileID: 11400000, guid: 3730b441660f5f8429f7732c4dc1e705, type: 2}
+    - {fileID: 11400000, guid: 3e7ba5efc4cb961418220b95e4089bbc, type: 2}
+    - {fileID: 11400000, guid: 5e4366839c33b7f45845e37284f33deb, type: 2}
+  cardPrefab: {fileID: 133666, guid: d061d4628df02c748b237dd7802eba0b, type: 2}
+--- !u!114 &11452738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9ed708b365b734aa8869d16e46b579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationData:
+  - type: 0
+    materials:
+    - {fileID: 2100000, guid: 6454c8161f7279d4d892e29bf6af4cce, type: 2}
+    - {fileID: 2100000, guid: 6454c8161f7279d4d892e29bf6af4cce, type: 2}
+  - type: 1
+    materials:
+    - {fileID: 2100000, guid: 1bacb1ae87138674782cf4605c3892aa, type: 2}
+  - type: 3
+    materials:
+    - {fileID: 2100000, guid: 17047312e61475a41875a1f73b0dbfd9, type: 2}
+  - type: 2
+    materials:
+    - {fileID: 2100000, guid: 535fc73f181839b4ea80e71f5cb5c0c3, type: 2}
+  - type: 4
+    materials:
+    - {fileID: 2100000, guid: 535fc73f181839b4ea80e71f5cb5c0c3, type: 2}
+  gridLocationPrefab: {fileID: 135934, guid: 639626b419aaa8049af2b33d71d282e4, type: 2}
+--- !u!114 &11477578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f1d74df1eae9640a0f4906b8316a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 177168, guid: 7d42da95f1c635743901d9f3aea52dad, type: 2}
+  factionColor:
+  - {r: .0758624077, g: 0, b: 1, a: .746999979}
+  - {r: 1, g: 0, b: .103447922, a: .746999979}
+  - {r: 0, g: 1, b: .131034374, a: .746999979}
+  - {r: 1, g: 0, b: .972414017, a: .746999979}
+  - {r: 0, g: 0, b: 0, a: .746999979}
+--- !u!114 &11481492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc936388b04ba8248b46fe57d2372c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawCard: {fileID: 8300000, guid: 891c629f21d92e548bd1bc197ec5b16f, type: 3}
+  chargeSound: {fileID: 8300000, guid: d6e1c3cfda550b54e8d09f2aba9ab1aa, type: 3}
+  chargeHoldSound: {fileID: 8300000, guid: d9a42440d66fe384a9932f080b82d034, type: 3}
+--- !u!114 &11492832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e87964f5c71924994b1a7b5b04a2b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 06d28a424f0ae8e43beaeaeb554aebb3, type: 2}
+  manaCrystalPrefab: {fileID: 137096, guid: 33b45a1706341744f8ca891044341360, type: 2}
+  manaRechargeRate: 15
+  firstManaRechargeRate: 1
+  obstacleConfig: {fileID: 11409136}
+  manaIndicator: {fileID: 132336, guid: 271c235c7a94c5643b859b7634cee2a2, type: 2}
+  spawnIndicator: {fileID: 132336, guid: 1196ed44115a43d4ab26f351951509f3, type: 2}
+  obstacleIndicator: {fileID: 132336, guid: c2ec548d50a33ee478cd345c886ed404, type: 2}
+  endLevelPrefab: {fileID: 183874, guid: 847a2f50c5e48fb4aa494e588aa399ce, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 144222}
+  m_IsPrefabParent: 1
